@@ -12,9 +12,9 @@
 #include <linux/regmap.h>
 #include <linux/slab.h>
 
-#define VIB_MAX_LEVEL_mV	(3100)
-#define VIB_MIN_LEVEL_mV	(1200)
-#define VIB_PER_STEP_mV		(100)
+#define VIB_MAX_LEVEL_mV	(3400)
+#define VIB_MIN_LEVEL_mV	(1500)
+#define VIB_PER_STEP_mV		(400)
 #define VIB_MAX_LEVELS		(VIB_MAX_LEVEL_mV - VIB_MIN_LEVEL_mV + VIB_PER_STEP_mV)
 
 #define MAX_FF_SPEED		0xff
